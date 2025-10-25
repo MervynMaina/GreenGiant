@@ -1,0 +1,409 @@
+{% extends 'starter-page.html' %}
+
+{% block title %}Services{% endblock %}
+
+{% load static %}
+
+{% block content %}
+	   <!-- Page Title -->
+<div class="page-title dark-background" data-aos="fade" style="background-image: url({% static 'assets/img/page-title-bg.jpg' %});">
+  <div class="container position-relative">
+    <h1>Our Services</h1>
+    <h2 class="tagline">Reliable Logistics Solutions Across East Africa</h2>
+    <p>
+      At Green Giant Agencies, we provide end‑to‑end logistics solutions — from freight forwarding and warehousing
+      to customs clearance and last‑mile delivery. Our mission is to keep your supply chain moving smoothly,
+      reliably, and on time.
+    </p>
+    <nav class="breadcrumbs">
+      <ol>
+        <li><a href="index.html">Home</a></li>
+        <li class="current">Services</li>
+      </ol>
+    </nav>
+  </div>
+</div>
+<!-- End Page Title -->
+
+    <!-- Featured Services Section -->
+<section id="featured-services" class="featured-services section">
+
+  <div class="container">
+
+    <div class="row gy-4">
+
+      <!-- Service 1 -->
+      <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+        <div class="icon flex-shrink-0"><i class="fa-solid fa-cart-flatbed"></i></div>
+        <div>
+          <h4 class="title">Freight Forwarding</h4>
+          <p class="description">
+            Seamless air, sea, and road freight solutions tailored to your business needs. We ensure your cargo arrives safely and on time, every time.
+          </p>
+          <a href="freight-forwarding.html" class="readmore stretched-link">
+            <span>Learn More</span><i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div><!-- End Service Item -->
+
+      <!-- Service 2 -->
+      <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+        <div class="icon flex-shrink-0"><i class="fa-solid fa-truck"></i></div>
+        <div>
+          <h4 class="title">Warehousing & Distribution</h4>
+          <p class="description">
+            Secure, modern storage facilities with efficient distribution networks that keep your supply chain running smoothly and cost‑effectively.
+          </p>
+          <a href="warehousing.html" class="readmore stretched-link">
+            <span>Learn More</span><i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div><!-- End Service Item -->
+
+      <!-- Service 3 -->
+      <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+        <div class="icon flex-shrink-0"><i class="fa-solid fa-truck-ramp-box"></i></div>
+        <div>
+          <h4 class="title">Customs Clearance</h4>
+          <p class="description">
+            Expert handling of customs documentation and compliance, ensuring your goods clear borders quickly without unnecessary delays or costs.
+          </p>
+          <a href="customs-clearance.html" class="readmore stretched-link">
+            <span>Learn More</span><i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div><!-- End Service Item -->
+
+    </div>
+
+  </div>
+
+</section>
+<!-- /Featured Services Section -->
+
+   <!-- Services Section -->
+<section id="services" class="services section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <span>What We Offer<br></span>
+    <h2>Our Services</h2>
+    <p>Comprehensive logistics solutions designed to keep your supply chain moving efficiently and reliably.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+
+    <div class="row gy-4">
+
+      <!-- Service 1 -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="card">
+          <div class="card-img">
+            <img src="{% static 'assets/img/service-1.jpg' %}" alt="Secure storage facilities" class="img-fluid">
+          </div>
+          <h3>Storage Solutions</h3>
+          <p>Modern, secure storage facilities with inventory management systems to keep your goods safe and accessible at all times.</p>
+        </div>
+      </div><!-- End Card Item -->
+
+      <!-- Service 2 -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="card">
+          <div class="card-img">
+            <img src="{% static 'assets/img/service-2.jpg' %}" alt="Freight forwarding services" class="img-fluid">
+          </div>
+          <h3><a href="freight-forwarding.html" class="stretched-link">Freight Forwarding</a></h3>
+          <p>Reliable air, sea, and road freight forwarding services that ensure your cargo arrives safely and on schedule.</p>
+        </div>
+      </div><!-- End Card Item -->
+
+      <!-- Service 3 -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="card">
+          <div class="card-img">
+            <img src="{% static 'assets/img/service-3.jpg' %}" alt="Cargo handling" class="img-fluid">
+          </div>
+          <h3><a href="cargo.html" class="stretched-link">Cargo Handling</a></h3>
+          <p>End‑to‑end cargo management, from loading and unloading to safe transit, tailored to your business requirements.</p>
+        </div>
+      </div><!-- End Card Item -->
+
+      <!-- Service 4 -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="card">
+          <div class="card-img">
+            <img src="{% static 'assets/img/service-4.jpg' %}" alt="Trucking and delivery" class="img-fluid">
+          </div>
+          <h3><a href="trucking.html" class="stretched-link">Trucking & Distribution</a></h3>
+          <p>Efficient trucking services with a reliable fleet to ensure timely deliveries across Kenya and East Africa.</p>
+        </div>
+      </div><!-- End Card Item -->
+
+      <!-- Service 5 -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+        <div class="card">
+          <div class="card-img">
+            <img src="{% static 'assets/img/service-5.jpg' %}" alt="Packaging services" class="img-fluid">
+          </div>
+          <h3>Packaging Solutions</h3>
+          <p>Professional packaging services designed to protect your goods during storage and transit, reducing risk of damage.</p>
+        </div>
+      </div><!-- End Card Item -->
+
+      <!-- Service 6 -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+        <div class="card">
+          <div class="card-img">
+            <img src="{% static 'assets/img/service-6.jpg' %}" alt="Warehousing services" class="img-fluid">
+          </div>
+          <h3><a href="warehousing.html" class="stretched-link">Warehousing</a></h3>
+          <p>Comprehensive warehousing solutions with real‑time inventory tracking and flexible storage options for all cargo types.</p>
+        </div>
+      </div><!-- End Card Item -->
+
+    </div>
+
+  </div>
+
+</section>
+<!-- /Services Section -->
+
+    <!-- Features Section -->
+<section id="features" class="features section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <span>Features</span>
+    <h2>Why Choose Us</h2>
+    <p>Discover the key advantages that make Green Giant Agencies your trusted logistics partner.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+
+    <!-- Feature 1 -->
+    <div class="row gy-4 align-items-center features-item">
+      <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+        <img src="{% static 'assets/img/features-1.jpg' %}" class="img-fluid" alt="Reliable logistics solutions">
+      </div>
+      <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
+        <h3>Reliable & On-Time Deliveries</h3>
+        <p class="fst-italic">
+          We pride ourselves on delivering shipments safely and on schedule, ensuring your business operations never miss a beat.
+        </p>
+        <ul>
+          <li><i class="bi bi-check"></i><span> Consistent, on-time performance across all routes.</span></li>
+          <li><i class="bi bi-check"></i><span> Real-time tracking for full shipment visibility.</span></li>
+          <li><i class="bi bi-check"></i><span> Dedicated support team for urgent requests.</span></li>
+        </ul>
+      </div>
+    </div><!-- End Feature Item -->
+
+    <!-- Feature 2 -->
+    <div class="row gy-4 align-items-center features-item">
+      <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+        <img src="{% static 'assets/img/features-2.jpg' %}" class="img-fluid" alt="Customs clearance support">
+      </div>
+      <div class="col-md-7 order-2 order-md-1" data-aos="fade-up" data-aos-delay="200">
+        <h3>Seamless Customs Clearance</h3>
+        <p class="fst-italic">
+          Our experienced team handles all documentation and compliance, helping you avoid delays and unexpected costs.
+        </p>
+        <p>
+          From import permits to duty payments, we simplify the process so you can focus on your business while we handle the paperwork.
+        </p>
+      </div>
+    </div><!-- End Feature Item -->
+
+    <!-- Feature 3 -->
+    <div class="row gy-4 align-items-center features-item">
+      <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out">
+        <img src="{% static 'assets/img/features-3.jpg' %}" class="img-fluid" alt="Warehousing and storage">
+      </div>
+      <div class="col-md-7" data-aos="fade-up">
+        <h3>Secure Warehousing & Storage</h3>
+        <p>
+          Our modern warehouses are equipped with advanced inventory systems and security measures to keep your goods safe and accessible.
+        </p>
+        <ul>
+          <li><i class="bi bi-check"></i><span> Flexible storage options for all cargo types.</span></li>
+          <li><i class="bi bi-check"></i><span> 24/7 monitoring and climate-controlled facilities.</span></li>
+          <li><i class="bi bi-check"></i><span> Efficient distribution from warehouse to destination.</span></li>
+        </ul>
+      </div>
+    </div><!-- End Feature Item -->
+
+    <!-- Feature 4 -->
+    <div class="row gy-4 align-items-center features-item">
+      <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out">
+        <img src="{% static 'assets/img/features-4.jpg' %}" class="img-fluid" alt="Customer support and tracking">
+      </div>
+      <div class="col-md-7 order-2 order-md-1" data-aos="fade-up">
+        <h3>Customer-Centric Support</h3>
+        <p class="fst-italic">
+          We believe logistics is more than moving goods — it’s about building trust. Our support team is always ready to assist.
+        </p>
+        <p>
+          With real-time updates, proactive communication, and personalized solutions, we ensure your logistics experience is smooth and stress-free.
+        </p>
+      </div>
+    </div><!-- End Feature Item -->
+
+  </div>
+
+</section>
+<!-- /Features Section -->
+
+    <!-- Testimonials Section -->
+<section id="testimonials" class="testimonials section dark-background">
+
+  <img src="{% static 'assets/img/testimonials-bg.jpg' %}" class="testimonials-bg" alt="Happy clients background">
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="swiper init-swiper">
+      <script type="application/json" class="swiper-config">
+        {
+          "loop": true,
+          "speed": 600,
+          "autoplay": {
+            "delay": 5000
+          },
+          "slidesPerView": "auto",
+          "pagination": {
+            "el": ".swiper-pagination",
+            "type": "bullets",
+            "clickable": true
+          }
+        }
+      </script>
+      <div class="swiper-wrapper">
+
+        <!-- Testimonial items (your updated ones go here) -->
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </div>
+
+</section>
+<!-- /Testimonials Section -->
+
+<!-- Client Logos Section -->
+<section id="clients" class="clients section">
+  <div class="container" data-aos="fade-up">
+    <div class="row gy-4 justify-content-center align-items-center">
+
+      <div class="col-lg-2 col-md-3 col-4">
+        <img src="{% static 'assets/img/clients/client-1.png' %}" class="img-fluid" alt="Client 1 logo">
+      </div>
+
+      <div class="col-lg-2 col-md-3 col-4">
+        <img src="{% static 'assets/img/clients/client-2.png' %}" class="img-fluid" alt="Client 2 logo">
+      </div>
+
+      <div class="col-lg-2 col-md-3 col-4">
+        <img src="{% static 'assets/img/clients/client-3.png' %}" class="img-fluid" alt="Client 3 logo">
+      </div>
+
+      <div class="col-lg-2 col-md-3 col-4">
+        <img src="{% static 'assets/img/clients/client-4.png' %}" class="img-fluid" alt="Client 4 logo">
+      </div>
+
+      <div class="col-lg-2 col-md-3 col-4">
+        <img src="{% static 'assets/img/clients/client-5.png' %}" class="img-fluid" alt="Client 5 logo">
+      </div>
+
+      <div class="col-lg-2 col-md-3 col-4">
+        <img src="{% static 'assets/img/clients/client-6.png' %}" class="img-fluid" alt="Client 6 logo">
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- /Client Logos Section -->
+
+    <!-- Faq Section -->
+<section id="faq" class="faq section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <span>Frequently Asked Questions</span>
+    <h2>Frequently Asked Questions</h2>
+    <p>Answers to the most common questions about our logistics and freight services.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+
+        <div class="faq-container">
+
+          <!-- FAQ 1 -->
+          <div class="faq-item faq-active" data-aos="fade-up" data-aos-delay="200">
+            <i class="faq-icon bi bi-question-circle"></i>
+            <h3>What areas do you cover?</h3>
+            <div class="faq-content">
+              <p>We provide logistics solutions across Kenya, East Africa, and international trade hubs. Whether local or global, we ensure your cargo reaches its destination safely and on time.</p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div><!-- End Faq item-->
+
+          <!-- FAQ 2 -->
+          <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+            <i class="faq-icon bi bi-question-circle"></i>
+            <h3>Can I track my shipment in real time?</h3>
+            <div class="faq-content">
+              <p>Yes. Our online tracking system allows you to monitor your shipment 24/7, from pickup to final delivery, giving you full visibility and peace of mind.</p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div><!-- End Faq item-->
+
+          <!-- FAQ 3 -->
+          <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+            <i class="faq-icon bi bi-question-circle"></i>
+            <h3>Do you handle customs clearance?</h3>
+            <div class="faq-content">
+              <p>Absolutely. Our experienced team manages all customs documentation and compliance requirements, ensuring smooth clearance and avoiding unnecessary delays.</p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div><!-- End Faq item-->
+
+          <!-- FAQ 4 -->
+          <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+            <i class="faq-icon bi bi-question-circle"></i>
+            <h3>What types of goods can you transport?</h3>
+            <div class="faq-content">
+              <p>We handle a wide range of cargo including consumer goods, industrial equipment, agricultural products, and fragile items. Specialized handling and packaging are available upon request.</p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div><!-- End Faq item-->
+
+          <!-- FAQ 5 -->
+          <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
+            <i class="faq-icon bi bi-question-circle"></i>
+            <h3>How do I request a quote?</h3>
+            <div class="faq-content">
+              <p>You can request a quote directly through our website by filling out the <a href="get-a-quote.html">Request a Quote</a> form. Provide your shipment details and our team will get back to you with a tailored solution.</p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div><!-- End Faq item-->
+
+        </div>
+
+        <!-- CTA at the bottom -->
+        <div class="faq-cta text-center mt-5" data-aos="fade-up" data-aos-delay="700">
+          <h4>Didn’t find your answer?</h4>
+          <p>Our team is here to help. Reach out and we’ll get back to you quickly.</p>
+          <a href="{% url 'contact' %}" class="btn btn-primary">Contact Us</a>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+</section>
+<!-- /Faq Section -->
+{% endblock %}
