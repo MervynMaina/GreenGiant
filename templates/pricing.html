@@ -6,174 +6,173 @@
 
 {% block content %}
    <!-- Page Title -->
-<div class="page-title dark-background" data-aos="fade" style="background-image: url({% static 'assets/img/page-title-bg.jpg' %});">
-  <div class="container position-relative">
-    <h1>Pricing</h1>
-    <h2 class="tagline">Transparent & Competitive Rates</h2>
-    <p>
-      At Green Giant Agencies, we believe in clear, upfront pricing with no hidden costs.
-      Our flexible packages are designed to suit businesses of all sizes — from small enterprises
-      to large corporations — ensuring you get the best value for your logistics needs.
-    </p>
-    <nav class="breadcrumbs">
-      <ol>
-        <li><a href="{% url 'home' %}">Home</a></li>
-        <li class="current">Pricing</li>
-      </ol>
-    </nav>
+   <div class="page-title dark-background" data-aos="fade" style="background-image: url({% static 'assets/img/page-title-bg.jpg' %});">
+    <div class="container position-relative">
+      <h1>Pricing</h1>
+      <h2 class="tagline">Transparent & Competitive Rates</h2>
+      <p>
+        At Green Giant Agencies, we believe in clear, upfront pricing with no hidden costs.
+        Our flexible packages are designed to suit businesses of all sizes — from small enterprises
+        to large corporations — ensuring you get the best value for your logistics needs.
+      </p>
+      <nav class="breadcrumbs">
+        <ol>
+          <li><a href="{% url 'home' %}">Home</a></li>
+          <li class="current">Pricing</li>
+        </ol>
+      </nav>
+    </div>
   </div>
-</div>
-<!-- End Page Title -->
-
-    <!-- Pricing Section -->
-    <section id="pricing" class="pricing section">
-
-     <!-- Pricing Section -->
-<section id="pricing" class="pricing section">
-
-  <!-- Section Title -->
-  <div class="container section-title" data-aos="fade-up">
-    <span>Pricing</span>
-    <h2>Our Pricing Plans</h2>
-    <p>Transparent and flexible rates designed to fit businesses of all sizes across Kenya and East Africa.</p>
-  </div><!-- End Section Title -->
-
-  <div class="container">
-
-    <div class="row gy-4">
-
+  <!-- End Page Title -->
+  
+      <!-- Pricing Section -->
+      <section id="pricing" class="pricing section">
+  
+       <!-- Pricing Section -->
+  <section id="pricing" class="pricing section">
+  
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <span>Pricing</span>
+      <h2>Our Pricing Plans</h2>
+      <p>Transparent and flexible rates designed to fit businesses of all sizes across Kenya and East Africa.</p>
+    </div><!-- End Section Title -->
+  
+    <div class="container">
+  
+      <div class="row gy-4">
+  
+        <!-- Starter Plan -->
+        <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+          <div class="pricing-item">
+            <h3>Starter Plan</h3>
+            <h4><sup>KES</sup> 12,000<span> / shipment</span></h4>
+            <ul>
+              <li><i class="bi bi-check"></i> <span>Local deliveries within Nairobi</span></li>
+              <li><i class="bi bi-check"></i> <span>Basic shipment tracking</span></li>
+              <li><i class="bi bi-check"></i> <span>Email support</span></li>
+              <li class="na"><i class="bi bi-x"></i> <span>Customs clearance</span></li>
+              <li class="na"><i class="bi bi-x"></i> <span>Warehousing services</span></li>
+            </ul>
+            <a href="{% url 'quote' %}" class="buy-btn">Get Started</a>
+          </div>
+        </div><!-- End Pricing Item -->
+  
+        <!-- Business Plan -->
+        <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+          <div class="pricing-item featured">
+            <h3>Business Plan</h3>
+            <h4><sup>KES</sup> 35,000<span> / shipment</span></h4>
+            <ul>
+              <li><i class="bi bi-check"></i> <span>Nationwide deliveries</span></li>
+              <li><i class="bi bi-check"></i> <span>Advanced shipment tracking</span></li>
+              <li><i class="bi bi-check"></i> <span>Customs clearance support</span></li>
+              <li><i class="bi bi-check"></i> <span>Warehousing up to 30 days</span></li>
+              <li><i class="bi bi-check"></i> <span>Priority customer support</span></li>
+            </ul>
+            <a href="{% url 'quote' %}" class="buy-btn">Choose Plan</a>
+          </div>
+        </div><!-- End Pricing Item -->
+  
+        <!-- Enterprise Plan -->
+        <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+          <div class="pricing-item">
+            <h3>Enterprise Plan</h3>
+            <h4><sup>KES</sup> 60,000<span> / shipment</span></h4>
+            <ul>
+              <li><i class="bi bi-check"></i> <span>International freight forwarding</span></li>
+              <li><i class="bi bi-check"></i> <span>Full customs clearance management</span></li>
+              <li><i class="bi bi-check"></i> <span>Warehousing up to 90 days</span></li>
+              <li><i class="bi bi-check"></i> <span>Dedicated account manager</span></li>
+              <li><i class="bi bi-check"></i> <span>24/7 premium support</span></li>
+            </ul>
+            <a href="{% url 'quote' %}" class="buy-btn">Contact Sales</a>
+          </div>
+        </div><!-- End Pricing Item -->
+  
+      </div>
+  
+    </div>
+  
+  </section>
+  <!-- /Pricing Section -->
+  
+      <!-- Alt Pricing Section -->
+  <section id="alt-pricing" class="alt-pricing section">
+  
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <span>Pricing</span>
+      <h2>Alternative Pricing Options</h2>
+      <p>Compare our flexible logistics packages and choose the one that best fits your business needs.</p>
+    </div><!-- End Section Title -->
+  
+    <div class="container">
+  
       <!-- Starter Plan -->
-      <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
-        <div class="pricing-item">
+      <div class="row gy-4 pricing-item" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-3 d-flex align-items-center justify-content-center">
           <h3>Starter Plan</h3>
+        </div>
+        <div class="col-lg-3 d-flex align-items-center justify-content-center">
           <h4><sup>KES</sup> 12,000<span> / shipment</span></h4>
+        </div>
+        <div class="col-lg-3 d-flex align-items-center justify-content-center">
           <ul>
             <li><i class="bi bi-check"></i> <span>Local deliveries within Nairobi</span></li>
             <li><i class="bi bi-check"></i> <span>Basic shipment tracking</span></li>
-            <li><i class="bi bi-check"></i> <span>Email support</span></li>
             <li class="na"><i class="bi bi-x"></i> <span>Customs clearance</span></li>
-            <li class="na"><i class="bi bi-x"></i> <span>Warehousing services</span></li>
           </ul>
-          <a href="{% url 'quote' %}" class="buy-btn">Get Started</a>
+        </div>
+        <div class="col-lg-3 d-flex align-items-center justify-content-center">
+          <div class="text-center"><a href="{% url 'quote' %}" class="buy-btn">Get Started</a></div>
         </div>
       </div><!-- End Pricing Item -->
-
+  
       <!-- Business Plan -->
-      <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
-        <div class="pricing-item featured">
+      <div class="row gy-4 pricing-item featured mt-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-lg-3 d-flex align-items-center justify-content-center">
           <h3>Business Plan</h3>
+        </div>
+        <div class="col-lg-3 d-flex align-items-center justify-content-center">
           <h4><sup>KES</sup> 35,000<span> / shipment</span></h4>
+        </div>
+        <div class="col-lg-3 d-flex align-items-center justify-content-center">
           <ul>
             <li><i class="bi bi-check"></i> <span>Nationwide deliveries</span></li>
             <li><i class="bi bi-check"></i> <span>Advanced shipment tracking</span></li>
             <li><i class="bi bi-check"></i> <span>Customs clearance support</span></li>
-            <li><i class="bi bi-check"></i> <span>Warehousing up to 30 days</span></li>
-            <li><i class="bi bi-check"></i> <span>Priority customer support</span></li>
           </ul>
-          <a href="{% url 'quote' %}" class="buy-btn">Choose Plan</a>
+        </div>
+        <div class="col-lg-3 d-flex align-items-center justify-content-center">
+          <div class="text-center"><a href="{% url 'quote' %}" class="buy-btn">Choose Plan</a></div>
         </div>
       </div><!-- End Pricing Item -->
-
+  
       <!-- Enterprise Plan -->
-      <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
-        <div class="pricing-item">
+      <div class="row gy-4 pricing-item mt-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="col-lg-3 d-flex align-items-center justify-content-center">
           <h3>Enterprise Plan</h3>
+        </div>
+        <div class="col-lg-3 d-flex align-items-center justify-content-center">
           <h4><sup>KES</sup> 60,000<span> / shipment</span></h4>
+        </div>
+        <div class="col-lg-3 d-flex align-items-center justify-content-center">
           <ul>
             <li><i class="bi bi-check"></i> <span>International freight forwarding</span></li>
             <li><i class="bi bi-check"></i> <span>Full customs clearance management</span></li>
             <li><i class="bi bi-check"></i> <span>Warehousing up to 90 days</span></li>
-            <li><i class="bi bi-check"></i> <span>Dedicated account manager</span></li>
-            <li><i class="bi bi-check"></i> <span>24/7 premium support</span></li>
           </ul>
-          <a href="{% url 'quote' %}" class="buy-btn">Contact Sales</a>
+        </div>
+        <div class="col-lg-3 d-flex align-items-center justify-content-center">
+          <div class="text-center"><a href="{% url 'quote' %}" class="buy-btn">Contact Sales</a></div>
         </div>
       </div><!-- End Pricing Item -->
-
+  
     </div>
-
-  </div>
-
-</section>
-<!-- /Pricing Section -->
-
-    <!-- Alt Pricing Section -->
-<section id="alt-pricing" class="alt-pricing section">
-
-  <!-- Section Title -->
-  <div class="container section-title" data-aos="fade-up">
-    <span>Pricing</span>
-    <h2>Alternative Pricing Options</h2>
-    <p>Compare our flexible logistics packages and choose the one that best fits your business needs.</p>
-  </div><!-- End Section Title -->
-
-  <div class="container">
-
-    <!-- Starter Plan -->
-    <div class="row gy-4 pricing-item" data-aos="fade-up" data-aos-delay="100">
-      <div class="col-lg-3 d-flex align-items-center justify-content-center">
-        <h3>Starter Plan</h3>
-      </div>
-      <div class="col-lg-3 d-flex align-items-center justify-content-center">
-        <h4><sup>KES</sup> 12,000<span> / shipment</span></h4>
-      </div>
-      <div class="col-lg-3 d-flex align-items-center justify-content-center">
-        <ul>
-          <li><i class="bi bi-check"></i> <span>Local deliveries within Nairobi</span></li>
-          <li><i class="bi bi-check"></i> <span>Basic shipment tracking</span></li>
-          <li class="na"><i class="bi bi-x"></i> <span>Customs clearance</span></li>
-        </ul>
-      </div>
-      <div class="col-lg-3 d-flex align-items-center justify-content-center">
-        <div class="text-center"><a href="{% url 'quote' %}" class="buy-btn">Get Started</a></div>
-      </div>
-    </div><!-- End Pricing Item -->
-
-    <!-- Business Plan -->
-    <div class="row gy-4 pricing-item featured mt-4" data-aos="fade-up" data-aos-delay="200">
-      <div class="col-lg-3 d-flex align-items-center justify-content-center">
-        <h3>Business Plan</h3>
-      </div>
-      <div class="col-lg-3 d-flex align-items-center justify-content-center">
-        <h4><sup>KES</sup> 35,000<span> / shipment</span></h4>
-      </div>
-      <div class="col-lg-3 d-flex align-items-center justify-content-center">
-        <ul>
-          <li><i class="bi bi-check"></i> <span>Nationwide deliveries</span></li>
-          <li><i class="bi bi-check"></i> <span>Advanced shipment tracking</span></li>
-          <li><i class="bi bi-check"></i> <span>Customs clearance support</span></li>
-        </ul>
-      </div>
-      <div class="col-lg-3 d-flex align-items-center justify-content-center">
-        <div class="text-center"><a href="{% url 'quote' %}" class="buy-btn">Choose Plan</a></div>
-      </div>
-    </div><!-- End Pricing Item -->
-
-    <!-- Enterprise Plan -->
-    <div class="row gy-4 pricing-item mt-4" data-aos="fade-up" data-aos-delay="300">
-      <div class="col-lg-3 d-flex align-items-center justify-content-center">
-        <h3>Enterprise Plan</h3>
-      </div>
-      <div class="col-lg-3 d-flex align-items-center justify-content-center">
-        <h4><sup>KES</sup> 60,000<span> / shipment</span></h4>
-      </div>
-      <div class="col-lg-3 d-flex align-items-center justify-content-center">
-        <ul>
-          <li><i class="bi bi-check"></i> <span>International freight forwarding</span></li>
-          <li><i class="bi bi-check"></i> <span>Full customs clearance management</span></li>
-          <li><i class="bi bi-check"></i> <span>Warehousing up to 90 days</span></li>
-        </ul>
-      </div>
-      <div class="col-lg-3 d-flex align-items-center justify-content-center">
-        <div class="text-center"><a href="{% url 'quote' %}" class="buy-btn">Contact Sales</a></div>
-      </div>
-    </div><!-- End Pricing Item -->
-
-  </div>
-
-</section>
-<!-- /Alt Pricing Section -->
-
+  
+  </section>
+  <!-- /Alt Pricing Section -->
 
 
 {% endblock %}
