@@ -34,7 +34,8 @@
 
       <!-- Quote Form -->
       <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
-        <form action="forms/get-a-quote.php" method="post" class="php-email-form">
+        <form method="post">
+            {% csrf_token %}
           <h3>Request a Logistics Quote</h3>
           <p>
             Need a reliable partner to move your cargo? Fill out the form below and we’ll provide a tailored quote
